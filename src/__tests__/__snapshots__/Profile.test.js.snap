@@ -22,7 +22,9 @@ exports[`Display missions element renders properly 1`] = `
     <h2>
       My Missions
     </h2>
-    <table>
+    <table
+      className="profil_Table"
+    >
       <tbody />
     </table>
   </div>
