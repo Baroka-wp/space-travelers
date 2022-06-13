@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Missions from './components/Missions';
 import NoMatch from './components/NoMatch';
 import Profile from './components/Profile';

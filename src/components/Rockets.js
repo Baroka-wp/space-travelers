@@ -12,8 +12,7 @@ const Rockets = () => {
   }, []);
 
   return (
-    <div>
-      <h2>ROCKETS</h2>
+    <div className="container">
       {
         rockets.map((item) => (
           <RocketsCard key={item.id} rocket={item} />
