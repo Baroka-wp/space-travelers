@@ -6,17 +6,19 @@ import { toggleReservation } from '../../redux/rockets/rocketsReducer';
 const RocketsCard = ({ rocket }) => {
   const dispatch = useDispatch();
   return (
-    <div>
+    <div className="rocket_card dflex">
       <img src={rocket.flickr_images} alt={rocket.rocket_name + rocket.id} />
-      <div>
+      <div className="rocket_details">
         <h3>{rocket.rocket_name}</h3>
         <p>
-          {rocket.reserved && (<span>[Reserved]</span>)}
+          {rocket.reserved && (<span className="reserve_badge">Reserved</span>)}
           {rocket.description}
         </p>
-        <button type="button" onClick={() => dispatch(toggleReservation(rocket.id))}>
-          {(rocket.reserved ? 'Cancel Reservation' : 'Reserve Rocket')}
-        </button>
+
+        {(rocket.reserved
+          ? <button type="button" className="cancel_btn" onClick={() => dispatch(toggleReservation(rocket.id))}>Cancel Reservation</button>
+          : <button type="button" className="reserve_btn" onClick={() => dispatch(toggleReservation(rocket.id))}>Reserve Rocket</button>
+        )}
       </div>
     </div>
   );
