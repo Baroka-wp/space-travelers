@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const ProfileMissionCard = ({ myMissions }) => (
-  <table>
+  <table className="profil_Table">
     <tbody>
       {
         myMissions.map((mission) => (
