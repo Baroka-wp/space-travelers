@@ -109,3 +109,59 @@ nav a.active {
   font-size: 14px;
   padding: 10px 20px;
 }
+
+.t-row {
+  align-items: center;
+}
+
+.td-name {
+  width: 12%;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.td-description {
+  width: 55%;
+  font-size: 15px;
+}
+
+.td-status,
+.td-action {
+  width: 10%;
+  text-align: center;
+}
+
+.td-active {
+  background: #42a3b8;
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 6px;
+  border-radius: 6px 6px;
+  text-align: center;
+}
+
+.td-not-active {
+  background: #545454;
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 6px;
+  border-radius: 6px 6px;
+}
+
+.td-leave {
+  background-color: #fff;
+  border: 1px solid #f54747;
+  color: #f54747;
+  font-size: 12px;
+  padding: 4px 6px;
+  border-radius: 6px 6px;
+}
+
+.td-join {
+  background-color: #fff;;
+  border: 1px solid #999;
+  color: #555;
+  font-size: 12px;
+  padding: 4px 6px;
+  border-radius: 6px 6px;
+}
