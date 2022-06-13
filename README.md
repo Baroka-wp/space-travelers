@@ -27,10 +27,11 @@ In this task, we workie with the real live data from the SpaceX API. The task is
 - Twitter: [IrotoriB](https://twitter.com/IrotoriB)
 - LinkedIn: [baroka](www.linkedin.com/in/baroka)
 
-👥 **Co Author : **
-- GitHub: [baroka-wp](https://github.com/Baroka-wp)
-- Twitter: [IrotoriB](https://twitter.com/IrotoriB)
-- LinkedIn: [baroka](www.linkedin.com/in/baroka)
+👥 **Co Author : Lembani Sakala**
+
+- GitHub: [@lembani](https://github.com/lembani)
+- Twitter: [@lembani_](https://twitter.com/lembani_)
+- LinkedIn: [lembani-sakala-b58615109](https://linkedin.com/in/lembani-sakala)
 
 ## Install
 ### Run the project in your local machine
