@@ -18,11 +18,8 @@ const ProfilRocketCard = ({ myRockets }) => (
 );
 
 ProfilRocketCard.propTypes = {
-  myRockets: PropTypes.shape({
-    map: PropTypes.func,
-    id: PropTypes.number,
-    rocket_name: PropTypes.string,
-  }).isRequired,
+  myRockets: PropTypes
+    .arrayOf(PropTypes.oneOfType([PropTypes.number, PropTypes.string])).isRequired,
 };
 
 export default ProfilRocketCard;
