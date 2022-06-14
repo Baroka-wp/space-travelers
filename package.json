@@ -1,7 +1,8 @@
 {
-  "name": "Space-travelers-app",
+  "name": "space-travelers",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Baroka-wp.github.io/space-travelers",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@reduxjs/toolkit": "^1.8.2",
@@ -29,7 +30,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [

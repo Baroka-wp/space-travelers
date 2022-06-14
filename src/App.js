@@ -9,10 +9,10 @@ import Rockets from './components/Rockets';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Rockets />} />
-      <Route path="/missions" element={<Missions />} />
-      <Route path="/my-profile" element={<Profile />} />
-      <Route path="/*" element={<NoMatch />} />
+      <Route path="/space-travelers/" element={<Rockets />} />
+      <Route path="/space-travelers/missions/" element={<Missions />} />
+      <Route path="/space-travelers/my-profile/" element={<Profile />} />
+      <Route path="*" element={<NoMatch />} />
     </Routes>
   );
 }
