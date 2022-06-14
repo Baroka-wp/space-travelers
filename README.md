@@ -1,5 +1,8 @@
 # Space Travelers - React project
-In this task, we workie with the real live data from the SpaceX API. The task is to build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.
+> In this task, we workie with the real live data from the SpaceX API. The task is to build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.
+
+<img width="1431" alt="Screenshot 2022-06-14 at 9 54 30 AM" src="https://user-images.githubusercontent.com/30483991/173524369-84478443-84a8-4a4d-b16a-649015e6899b.png">
+
 
 ## LOOM VIDEO PRESENTING
 [Watch the presentation of the projet on Zoom](#)
