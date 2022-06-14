@@ -14,10 +14,7 @@
 - Redux
 - Jest
 
-## Mookup
-![free](#)
-
-## Live
+## Live Link
 
 [Go Live](#)
 
