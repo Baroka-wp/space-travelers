@@ -10,8 +10,8 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Rockets />} />
-      <Route path="/missions/" element={<Missions />} />
-      <Route path="/my-profile/" element={<Profile />} />
+      <Route path="/missions" element={<Missions />} />
+      <Route path="/my-profile" element={<Profile />} />
       <Route path="/*" element={<NoMatch />} />
     </Routes>
   );

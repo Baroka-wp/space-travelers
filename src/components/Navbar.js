@@ -10,8 +10,8 @@ const Navbar = () => (
     </div>
     <ul className="dflex">
       <li><NavLink to="/">Rockets</NavLink></li>
-      <li><NavLink to="/missions/">Missions</NavLink></li>
-      <li><NavLink to="/my-profile/">My Profile</NavLink></li>
+      <li><NavLink to="/missions">Missions</NavLink></li>
+      <li><NavLink to="/my-profile">My Profile</NavLink></li>
     </ul>
   </nav>
 );
